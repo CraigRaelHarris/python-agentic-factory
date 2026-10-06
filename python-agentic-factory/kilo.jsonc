@@ -1,0 +1,32 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+
+  // Kilo provider id + OpenRouter's model id.
+  "model": "openrouter/z-ai/glm-5.3",
+
+  // Keep always-on project context small. Detailed docs are loaded on demand.
+  "instructions": [
+    ".kilo/rules/core.md",
+    ".kilo/rules/python.md",
+    ".kilo/rules/security.md"
+  ],
+
+  "compaction": {
+    "auto": true,
+    "threshold_percent": 60,
+    "prune": true,
+    "tail_turns": 2
+  },
+
+  // Conservative default permissions. Tighten further for sensitive projects.
+  "permission": {
+    "read": "allow",
+    "glob": "allow",
+    "grep": "allow",
+    "edit": "ask",
+    "bash": "ask",
+    "task": "allow",
+    "webfetch": "ask",
+    "websearch": "ask"
+  }
+}

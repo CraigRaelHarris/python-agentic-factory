@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Secrets/local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Data / models
+/data/
+/models/
+*.parquet
+*.arrow
+*.pkl
+*.joblib
+
+# IDE/OS
+.vscode/*.local.json
+.DS_Store
+Thumbs.db
+
+# Logs/temp
+*.log
+.tmp/
+.cache/
+
+# Local DB
+*.db
+*.sqlite
+*.sqlite3
