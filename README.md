@@ -2,17 +2,7 @@
 
 A reusable starter template for production-minded, AI-assisted software engineering in Python, built around **Kilo Code**, **OpenRouter** and **GLM-5.3** on Windows 11 + VS Code.
 
-The factory replaces "remembering to tell the agent" with durable harness primitives:
-
-1. Spec
-2. Rule
-3. Skill
-4. Test
-5. Eval
-6. Hook
-7. Tool
-
-If an agent failure occurs once, fix the code. If it occurs twice, ask whether the factory itself is missing something.
+Inspired by https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding 
 
 ## How the factory works
 
