@@ -74,7 +74,7 @@ Use the factory in this order:
 ## 5. Quality commands
 
 ```powershell
-uv sync --all-extras --dev
+uv sync --dev                # core + dev tooling only; add --extra ml/spark/postgres as needed
 uv run ruff format --check .
 uv run ruff check .
 uv run mypy src

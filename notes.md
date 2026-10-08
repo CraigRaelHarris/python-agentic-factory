@@ -204,24 +204,24 @@ GLM-5.3 Flash
 └── compaction
 
 [starting a new project]
-./scripts/bootstrap.ps1
+A. copy python-agentic-factory + subfolders to new project 
+B. ./scripts/bootstrap.ps1
 	initializes Git
-	creates the Python environment
+	creates the Python virtua environment
 	installs dependencies
 	installs pre-commit
-	creates local .env
 	runs initial verification
-Manually fill in 
-1. DISCOVERY.md
-2. CONTEXT.md
-3. docs/specs/PRODUCT_SPEC.md
-4. GUARDRAILS.md
-Review 
-1. ARCHITECTURAL_CONSTRAINTS.md
-2. EVALS.md
-3. SECURITY.md
-in kilo;
-/project-start
+C. Manually fill in (or jump to E)
+ 1. DISCOVERY.md
+ 2. CONTEXT.md
+ 3. docs/specs/PRODUCT_SPEC.md
+ 4. GUARDRAILS.md
+D. Review 
+ 1. ARCHITECTURAL_CONSTRAINTS.md
+ 2. EVALS.md
+ 3. SECURITY.md
+E. in kilo;
+ /project-start
 
 [important principle for agentic engineering]
 Coding factory must move from me remembering to tell the agent...to 

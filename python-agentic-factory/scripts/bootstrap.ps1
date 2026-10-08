@@ -8,7 +8,12 @@ if (-not (Test-Path .git)) {
     git init
 }
 
-uv sync --all-extras --dev
+# Install only core dependencies + dev tooling. Optional dependency groups
+# (ml, spark, postgres) are opt-in; install them on demand with e.g.:
+#   uv sync --extra ml
+#   uv sync --extra spark
+#   uv sync --extra postgres
+uv sync --dev
 uv run pre-commit install
 
 if (-not (Test-Path .env)) {
