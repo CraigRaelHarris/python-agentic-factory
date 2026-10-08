@@ -1,0 +1,18 @@
+A. copy python-agentic-factory + subfolders to new project 
+B. ./scripts/bootstrap.ps1
+	initializes Git
+	creates the Python virtua environment
+	installs dependencies
+	installs pre-commit
+	runs initial verification
+C. Manually fill in (or jump to E)
+ 1. DISCOVERY.md
+ 2. CONTEXT.md
+ 3. docs/specs/PRODUCT_SPEC.md
+ 4. GUARDRAILS.md
+D. Review 
+ 1. ARCHITECTURAL_CONSTRAINTS.md
+ 2. EVALS.md
+ 3. SECURITY.md
+E. in kilo;
+ /project-start
