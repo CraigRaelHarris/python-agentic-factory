@@ -26,6 +26,8 @@ postgres = [
   "psycopg[binary]>=3.2",
   "alembic>=1.14",
 ]
+
+[dependency-groups]
 dev = [
   "bandit>=1.8",
   "mypy>=1.15",
