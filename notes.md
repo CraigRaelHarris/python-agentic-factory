@@ -234,5 +234,65 @@ Coding factory must move from me remembering to tell the agent...to
 7. TOOL
 If an agent failure occurs once, fix the code. If it occurs twice, ask whether the factory itself is missing something.
 
+[packages]
 
+| Package                 | Brief explanation                                                                            |
+|-------------------------|----------------------------------------------------------------------------------------------|
+| agentic-project         | Your own Python project (python-zulu-mah), installed as a package.                           |
+| ast-serialize           | Serializes Python Abstract Syntax Trees (ASTs) into transferable formats.                    |
+| bandit                  | Scans Python code for common security vulnerabilities.                                       |
+| boolean-py              | Provides Boolean algebra expressions and operations.                                         |
+| cachecontrol            | Adds HTTP caching to Python's requests library.                                              |
+| certifi                 | Provides trusted SSL/TLS certificates for secure HTTPS connections.                          |
+| cfgv                    | Validates configuration files, primarily for pre-commit.                                     |
+| charset-normalizer      | Detects and normalizes text character encodings.                                             |
+| colorama                | Enables coloured terminal output, especially on Windows.                                     |
+| coverage                | Measures which lines and branches of your code execute during tests.                         |
+| cyclonedx-python-lib    | Generates Software Bills of Materials (SBOMs) describing software dependencies.              |
+| defusedxml              | Provides safer XML parsing to prevent XML-related attacks.                                   |
+| distlib                 | Utilities for Python package installation and distribution.                                  |
+| filelock                | Prevents multiple processes from accessing a resource simultaneously.                        |
+| identify                | Identifies file types and languages for pre-commit.                                          |
+| idna                    | Handles internationalized domain names containing non-ASCII characters.                      |
+| iniconfig               | Parses INI-style configuration files, used by pytest.                                        |
+| librt                   | Low-level runtime utilities used by some Python tooling.                                     |
+| license-expression      | Parses and evaluates software licence expressions.                                           |
+| markdown-it-py          | Converts Markdown text into structured tokens or HTML.                                       |
+| mdurl                   | Parses and normalizes URLs within Markdown documents.                                        |
+| msgpack                 | Efficiently serializes data into a compact binary format.                                    |
+| mypy                    | Performs static type checking of Python code.                                                |
+| mypy-extensions         | Additional typing utilities supporting mypy.                                                 |
+| nodeenv                 | Creates isolated Node.js environments, often for development tools.                          |
+| numpy                   | Provides fast numerical arrays, mathematical operations and matrix computations.             |
+| packageurl-python       | Creates standardized identifiers for software packages (Package URLs).                       |
+| packaging               | Handles Python package versions, requirements and compatibility checks.                      |
+| pandas                  | Provides DataFrames for data analysis, transformation and manipulation.                      |
+| pathspec                | Matches file paths against patterns, including .gitignore rules.                             |
+| pip                     | Installs and manages Python packages.                                                        |
+| pip-api                 | Provides a Python interface for interacting with pip.                                        |
+| pip-audit               | Checks installed Python dependencies for known security vulnerabilities.                     |
+| pip-requirements-parser | Reads and interprets Python requirements.txt files.                                          |
+| platformdirs            | Determines standard locations for application data, caches and configuration.                |
+| pluggy                  | Plugin management framework used by pytest.                                                  |
+| pre-commit              | Automatically runs checks such as formatting, linting and security scans before Git commits. |
+| py-serializable         | Converts Python objects into and out of serializable formats.                                |
+| pygments                | Provides syntax highlighting for programming languages.                                      |
+| pyparsing               | Builds parsers for structured text and custom languages.                                     |
+| pytest                  | Framework for writing and running automated Python tests.                                    |
+| pytest-cov              | Integrates test coverage reporting into pytest.                                              |
+| python-dateutil         | Provides advanced date parsing, calculations and recurrence rules.                           |
+| python-discovery        | Helps discover and locate installed Python interpreters.                                     |
+| pyyaml                  | Reads and writes YAML configuration files.                                                   |
+| requests                | Makes HTTP requests to web services and REST APIs.                                           |
+| rich                    | Creates formatted terminal output, including tables and progress bars.                       |
+| ruff                    | Very fast Python linter and code formatter.                                                  |
+| six                     | Compatibility utilities for Python 2 and Python 3 code.                                      |
+| sortedcontainers        | Provides efficient sorted lists, dictionaries and sets.                                      |
+| stevedore               | Dynamically loads and manages plugins and extensions.                                        |
+| tomli                   | Reads TOML configuration files, such as pyproject.toml.                                      |
+| tomli-w                 | Writes data to TOML files.                                                                   |
+| typing-extensions       | Provides newer Python typing features on older Python versions.                              |
+| tzdata                  | Supplies timezone information for date and time calculations.                                |
+| urllib3                 | Low-level HTTP networking library used by requests.                                          |
+| virtualenv              | Creates isolated Python environments with their own dependencies.                            |
 
